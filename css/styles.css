@@ -87,7 +87,7 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .primary-link {
     display: block;
     margin: 10px auto;
@@ -98,8 +98,5 @@ p {
   .sub-head {
     text-align: center;
     margin-top: 15px;
-  }
-  p {
-    display: none;
   }
 }
